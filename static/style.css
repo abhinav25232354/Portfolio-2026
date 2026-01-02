@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* Colors */
+    --primary-background-color: #1B3C53;
+    --secondary-background-color: #234C6A;
+    --tertiary-background-color: #456882;
+    --primary-text-color: #f4f4f4;
+    --secondary-text-color: #f4f4f4;
+    --accent-color: #D2C1B6;
+
+    /* Padding */
+    --comfort-padding: 15px;
+    --compact-padding: 8px;
+
+    /* margin */
+    --comfort-margin: 15px;
+    --compact-margin: 8px;
+
+    /* Border Radius */
+    --border-radius: 8px;
+
+    /* Card Consistency Design */
+    --width-card: 300px;
+    --height-card: 200px;
+
+    /* Alert */
+    --alert-background-color: #ff9800;
+    --alert-text-color: #ffffff;
+}
+
+body{
+    background: var(--primary-background-color);
+}
+
+/* Navbar */
+#navbar-left-aligned{
+    width: 50px;
+    height: 100vh;
+    background: var(--secondary-background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: var(--comfort-padding);
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+#navbar-left-aligned a{
+    color: var(--primary-text-color);
+    text-decoration: none;
+    margin-bottom: var(--comfort-margin);
+    font-size: 14px;
+    text-orientation: mixed;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
